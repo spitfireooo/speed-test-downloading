@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/main.ts",
+    "test": "node --experimental-strip-types --test test/download.test.ts"
+  }
+}
